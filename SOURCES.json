@@ -1,0 +1,118 @@
+{
+  "format_version": 1,
+  "collection": "piper_arm",
+  "sources": [
+    {
+      "destination": "Teleop",
+      "repository": "https://github.com/yangzz7/Teleop",
+      "commit_sha": "2559241d9b1e9dc8026126aaf49019c924e4caa8",
+      "branch_at_collection": "main",
+      "archive": "Teleop.zip",
+      "file_count": 6024,
+      "git_blob_bytes": 739218606,
+      "symlink_count": 136,
+      "executable_count": 819,
+      "submodules_expanded": []
+    },
+    {
+      "destination": "agx_arm_ros",
+      "repository": "https://github.com/agilexrobotics/agx_arm_ros",
+      "commit_sha": "e4ccec1999279d063c2962030b9437b78b0d0db6",
+      "branch_at_collection": "ros2",
+      "archive": "agx_arm_ros.zip",
+      "file_count": 96,
+      "git_blob_bytes": 1761244,
+      "symlink_count": 0,
+      "executable_count": 4,
+      "submodules_expanded": [
+        {
+          "path": "src/agx_arm_description/agx_arm_urdf",
+          "commit_sha": "983788b58d7eae76511177f768d85877534917fe"
+        }
+      ]
+    },
+    {
+      "destination": "piper_ros",
+      "repository": "https://github.com/agilexrobotics/piper_ros",
+      "commit_sha": "ac41fcbcdda598f01b51cf6175ed9a24d0dacadc",
+      "branch_at_collection": "noetic",
+      "archive": "piper_ros.zip",
+      "file_count": 1516,
+      "git_blob_bytes": 82738225,
+      "symlink_count": 0,
+      "executable_count": 101,
+      "submodules_expanded": []
+    },
+    {
+      "destination": "agx_arm_urdf",
+      "repository": "https://github.com/agilexrobotics/agx_arm_urdf",
+      "commit_sha": "983788b58d7eae76511177f768d85877534917fe",
+      "branch_at_collection": "main",
+      "archive": "agx_arm_urdf.zip",
+      "file_count": 164,
+      "git_blob_bytes": 190769809,
+      "symlink_count": 0,
+      "executable_count": 48,
+      "submodules_expanded": []
+    },
+    {
+      "destination": "agx_arm_sim",
+      "repository": "https://github.com/agilexrobotics/agx_arm_sim",
+      "commit_sha": "f8cd8b147c75d59e14f90fb0646770eefa268ed0",
+      "branch_at_collection": "master",
+      "archive": "agx_arm_sim.zip",
+      "file_count": 345,
+      "git_blob_bytes": 426634090,
+      "symlink_count": 0,
+      "executable_count": 11,
+      "submodules_expanded": [
+        {
+          "path": "agx_arm_description/agx_arm_urdf",
+          "commit_sha": "1ee5659d02b33b9379fd647a2e5647800d67f0f4"
+        }
+      ]
+    },
+    {
+      "destination": "agx_arm_sim/agx_arm_description/agx_arm_urdf",
+      "repository": "https://github.com/agilexrobotics/agx_arm_urdf",
+      "commit_sha": "1ee5659d02b33b9379fd647a2e5647800d67f0f4",
+      "branch_at_collection": null,
+      "archive": "agx_arm_urdf_sim.zip",
+      "file_count": 195,
+      "git_blob_bytes": 225983121,
+      "symlink_count": 0,
+      "executable_count": 60,
+      "submodules_expanded": []
+    },
+    {
+      "destination": "agx_arm_ros/src/agx_arm_description/agx_arm_urdf",
+      "repository": "https://github.com/agilexrobotics/agx_arm_urdf",
+      "commit_sha": "983788b58d7eae76511177f768d85877534917fe",
+      "branch_at_collection": null,
+      "archive": "agx_arm_urdf.zip",
+      "file_count": 164,
+      "git_blob_bytes": 190769809,
+      "symlink_count": 0,
+      "executable_count": 48,
+      "submodules_expanded": [],
+      "reason": "Pinned agx_arm_ros submodule"
+    }
+  ],
+  "source_file_count": 8504,
+  "source_git_blob_bytes": 1857874904,
+  "symlink_count": 136,
+  "executable_count": 1091,
+  "assembly": "Snapshots of the five requested repositories, with the two pinned URDF submodules expanded into ordinary directories. This is not a verified integrated build workspace.",
+  "licenses": "Original source and license files are retained without relicensing.",
+  "symlinks": "Git stores the original 120000 mode and link-target bytes. The local Windows working tree uses plain text placeholders because core.symlinks=false. Linux checkouts can restore real links.",
+  "line_endings_and_modes": "Git blob bytes, executable 100755 modes, and symlink 120000 modes are preserved through fast-import without clean filters or line-ending conversion.",
+  "lfs": {
+    "oid_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "size": 145250924,
+    "paths": [
+      "Teleop/UMI_to_Openarm/UMI_to_arm/camera_driver/cyperstereo/orbslam3/Vocabulary/ORBvoc.txt",
+      "Teleop/UMI_to_Piper/camera_driver/cyperstereo/orbslam3/Vocabulary/ORBvoc.txt"
+    ],
+    "status": "Verified object populated in the local .git/lfs/objects cache and materialized at both working-tree paths; original pointer blobs remain in Git. Remote LFS upload is a separate step."
+  }
+}
