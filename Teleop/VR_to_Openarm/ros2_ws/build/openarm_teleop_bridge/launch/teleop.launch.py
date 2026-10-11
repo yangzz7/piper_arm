@@ -1,1 +1,0 @@
-/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/launch/teleop.launch.py

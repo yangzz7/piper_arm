@@ -1,3 +1,0 @@
-[console_scripts]
-jt_bridge = openarm_teleop_bridge.jt_bridge:main
-

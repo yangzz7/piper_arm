@@ -1,3 +1,0 @@
-[console_scripts]
-umi_bridge = openarm_umi_bridge.umi_bridge:main
-

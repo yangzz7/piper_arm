@@ -3,15 +3,15 @@
   "collection": "piper_arm",
   "sources": [
     {
-      "destination": "Teleop",
-      "repository": "https://github.com/yangzz7/Teleop",
-      "commit_sha": "2559241d9b1e9dc8026126aaf49019c924e4caa8",
-      "branch_at_collection": "main",
-      "archive": "Teleop.zip",
-      "file_count": 6024,
-      "git_blob_bytes": 739218606,
-      "symlink_count": 136,
-      "executable_count": 819,
+      "destination": "pyAgxArm",
+      "repository": "https://github.com/agilexrobotics/pyAgxArm",
+      "commit_sha": "841a625f5f4920e776f20b934eb13048b747e6d0",
+      "branch_at_collection": "master",
+      "archive": "pyAgxArm.zip",
+      "file_count": 287,
+      "git_blob_bytes": 1628217,
+      "symlink_count": 0,
+      "executable_count": 0,
       "submodules_expanded": []
     },
     {
@@ -98,21 +98,16 @@
       "reason": "Pinned agx_arm_ros submodule"
     }
   ],
-  "source_file_count": 8504,
-  "source_git_blob_bytes": 1857874904,
-  "symlink_count": 136,
-  "executable_count": 1091,
+  "source_file_count": 2767,
+  "source_git_blob_bytes": 1120284515,
+  "symlink_count": 0,
+  "executable_count": 272,
   "assembly": "Snapshots of the five requested repositories, with the two pinned URDF submodules expanded into ordinary directories. This is not a verified integrated build workspace.",
   "licenses": "Original source and license files are retained without relicensing.",
-  "symlinks": "Git stores the original 120000 mode and link-target bytes. The local Windows working tree uses plain text placeholders because core.symlinks=false. Linux checkouts can restore real links.",
-  "line_endings_and_modes": "Git blob bytes, executable 100755 modes, and symlink 120000 modes are preserved through fast-import without clean filters or line-ending conversion.",
+  "symlinks": "No symbolic links in the current source snapshot.",
+  "line_endings_and_modes": "Original Git blob bytes and file modes are preserved through direct Git object import without clean filters or line-ending conversion.",
   "lfs": {
-    "oid_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
-    "size": 145250924,
-    "paths": [
-      "Teleop/UMI_to_Openarm/UMI_to_arm/camera_driver/cyperstereo/orbslam3/Vocabulary/ORBvoc.txt",
-      "Teleop/UMI_to_Piper/camera_driver/cyperstereo/orbslam3/Vocabulary/ORBvoc.txt"
-    ],
-    "status": "Verified object populated in the local .git/lfs/objects cache and materialized at both working-tree paths; original pointer blobs remain in Git. Remote LFS upload is a separate step."
+    "paths": [],
+    "status": "No Git LFS pointers in the current source snapshot."
   }
 }
